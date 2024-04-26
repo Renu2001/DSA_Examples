@@ -25,14 +25,22 @@ namespace DataStructure
             return array;
         }
 
-        public void Display(int[] arr)
+        public void DisplayArray(int[] arr)
         {
-            Console.WriteLine("Values in Array are");
+            Console.WriteLine("Values in Array are : ");
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.WriteLine(arr[i]);
             }
         }
+        public void SortArray(int[] arr)
+        {
+            Array.Sort(arr);
+            Console.WriteLine("Values after sort: ");
+            DisplayArray(arr);
+
+        }
+
 
 
     }
