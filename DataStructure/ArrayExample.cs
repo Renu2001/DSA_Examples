@@ -18,7 +18,7 @@ namespace DataStructure
             
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write("Enter values in array");
+                Console.Write("Enter values in array : ");
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("Array Created");
@@ -37,6 +37,14 @@ namespace DataStructure
         {
             Array.Sort(arr);
             Console.WriteLine("Values after sort: ");
+            DisplayArray(arr);
+
+        }
+
+        public void ReverseArray(int[] arr)
+        {
+            Array.Reverse(arr);
+            Console.WriteLine("Values after Reverse:");
             DisplayArray(arr);
 
         }
