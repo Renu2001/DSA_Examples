@@ -8,7 +8,8 @@ namespace DataStructure
         {
             Console.WriteLine("data structure assignment");
             ArrayExample example1 = new ArrayExample();
-            example1.CreateArray();
+            int [] arr = example1.CreateArray();
+            example1.Display(arr);
         }
         
     }

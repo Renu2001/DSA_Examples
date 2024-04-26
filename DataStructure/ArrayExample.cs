@@ -18,12 +18,22 @@ namespace DataStructure
             
             for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine("Enter values in array");
+                Console.Write("Enter values in array");
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("Array Created");
             return array;
         }
+
+        public void Display(int[] arr)
+        {
+            Console.WriteLine("Values in Array are");
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+        }
+
 
     }
 }
