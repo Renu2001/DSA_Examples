@@ -25,6 +25,12 @@ namespace DataStructure
             Console.WriteLine("Element Removed");
         }
 
+        public void DisplayElement()
+        {
+            Console.WriteLine("Elements in stack are");
+            foreach (int i in s)
+                Console.WriteLine(i);
+        }
 
     }
 }

@@ -23,8 +23,9 @@ namespace DataStructure
                     case 2:
                         stackExample.RemoveElement();
                         break;
-
-                    
+                    case 4:
+                        stackExample.DisplayElement();
+                        break;
                 }
 
             }while (option != 0);
