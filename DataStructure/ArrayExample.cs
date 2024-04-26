@@ -49,6 +49,13 @@ namespace DataStructure
 
         }
 
+        public void MergeArray(int[] arr1, int[] arr2)
+        {
+            int[] merge = arr1.Concat(arr2).ToArray();
+            Console.WriteLine("Values after Merge:");
+            DisplayArray(merge);
+        }
+
 
 
     }
