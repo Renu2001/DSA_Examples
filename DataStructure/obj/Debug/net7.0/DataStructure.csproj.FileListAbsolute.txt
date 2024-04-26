@@ -12,3 +12,4 @@ D:\Bridgelabz_DSA\DSA\DataStructure\obj\Debug\net7.0\refint\DataStructure.dll
 D:\Bridgelabz_DSA\DSA\DataStructure\obj\Debug\net7.0\DataStructure.pdb
 D:\Bridgelabz_DSA\DSA\DataStructure\obj\Debug\net7.0\DataStructure.genruntimeconfig.cache
 D:\Bridgelabz_DSA\DSA\DataStructure\obj\Debug\net7.0\ref\DataStructure.dll
+D:\Bridgelabz_DSA\DSA\DataStructure\obj\Debug\net7.0\DataStructure.sourcelink.json
