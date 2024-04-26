@@ -36,6 +36,13 @@ namespace DataStructure
             Console.WriteLine("Peek element" + this.s.Peek());
         }
 
+        public void RemoveAllElement()
+        {
+            s.Clear();
+            Console.WriteLine("All Elements are deleted");
+        }
+
+
 
     }
 }
