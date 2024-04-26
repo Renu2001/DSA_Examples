@@ -7,17 +7,24 @@ namespace DataStructure
         static void Main(string[] args)
         {
             Console.WriteLine("data structure assignment");
-            ArrayExample example1 = new ArrayExample();
-            int [] arr1 = example1.CreateArray();
-            example1.DisplayArray(arr1);
-            Console.WriteLine();
-            example1.SortArray(arr1);
-            Console.WriteLine();
-            example1.ReverseArray(arr1);
-            Console.WriteLine();
-            int[] arr2 = example1.CreateArray();
-            example1.MergeArray(arr1,arr2);
-            example1.RemoveAllElements(arr1);
+            StackExample stackExample = new StackExample();
+            
+            int option;
+            do
+            {
+                Console.WriteLine("Enter your choice");
+                Console.WriteLine("1.Add\n2.Remove\n3.Peek\n4.Display\n5.Exit");
+                option = Convert.ToInt32(Console.ReadLine());
+                switch (option)
+                {
+                    case 1:
+                        stackExample.AddElement();
+                        break;
+                    
+                }
+
+            }while (option != 0);
+           
         }
 
     }
