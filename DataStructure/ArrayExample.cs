@@ -56,6 +56,12 @@ namespace DataStructure
             DisplayArray(merge);
         }
 
+        public void RemoveAllElements(int[] arr)
+        {
+            Array.Clear(arr);
+            Console.WriteLine("All the elements are removed");
+
+        }
 
 
     }

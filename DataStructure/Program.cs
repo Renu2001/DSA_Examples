@@ -17,6 +17,7 @@ namespace DataStructure
             Console.WriteLine();
             int[] arr2 = example1.CreateArray();
             example1.MergeArray(arr1,arr2);
+            example1.RemoveAllElements(arr1);
         }
 
     }
