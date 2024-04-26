@@ -31,6 +31,11 @@ namespace DataStructure
             foreach (int i in s)
                 Console.WriteLine(i);
         }
+        public void PeekElement()
+        {
+            Console.WriteLine("Peek element" + this.s.Peek());
+        }
+
 
     }
 }
