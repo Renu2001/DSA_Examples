@@ -18,8 +18,13 @@ namespace DataStructure
             s.Push(no);
             Console.WriteLine("Element Added");
         }
-        
-      
+
+        public void RemoveElement()
+        {
+            s.Pop();
+            Console.WriteLine("Element Removed");
+        }
+
 
     }
 }

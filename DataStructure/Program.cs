@@ -20,6 +20,10 @@ namespace DataStructure
                     case 1:
                         stackExample.AddElement();
                         break;
+                    case 2:
+                        stackExample.RemoveElement();
+                        break;
+
                     
                 }
 
