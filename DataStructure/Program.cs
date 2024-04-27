@@ -35,6 +35,15 @@ namespace DataStructure
                     case 6:
                         stackExample.ContainsElement();
                         break;
+                    case 7:
+                        stackExample.CountElement();
+                        break;
+                    case 0:
+                        Console.WriteLine("Exiting");
+                        break;
+                    default:
+                        Console.WriteLine("Wrong choice");
+                        break;
 
                 }
 

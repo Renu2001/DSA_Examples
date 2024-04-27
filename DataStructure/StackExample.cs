@@ -54,6 +54,11 @@ namespace DataStructure
 
         }
 
+        public void CountElement()
+        {
+            Console.WriteLine("Total no of Elements are" + s.Count);
+
+        }
 
 
     }
