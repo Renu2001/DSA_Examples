@@ -4,54 +4,28 @@ namespace DataStructure
 {
     internal class Program
     {
+        List<ListInventoryManage> list = new List<ListInventoryManage>();
+
+        public void Add()
+        {
+            Console.WriteLine("Enter Id");
+            int id = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter name");
+            string name = Console.ReadLine();
+            list.Add(new ListInventoryManage(id, name));
+            Console.WriteLine("Element Added");
+        }
+
+        
         static void Main(string[] args)
         {
             Console.WriteLine("data structure assignment");
-            QueueExample queueExample = new QueueExample();
+            Program program = new Program();
+            program.Add();    
             
-            int option;
-            do
-            {
-                Console.WriteLine("Enter your choice");
-                Console.WriteLine("1.Add\n2.Remove\n3.Peek\n4.Display\n5.RemoveAll\n6.Count\n7.ContainsElement\n0.Exit");
-                option = Convert.ToInt32(Console.ReadLine());
-                switch (option)
-                {
-                    case 1:
-                        queueExample.AddElement();
-                        break;
 
-                    case 2:
-                        queueExample.RemoveElement();
-                        break;
-                    case 3:
-                        queueExample.PeekElement();
-                        break;
-                    case 4:
-                        queueExample.DisplayElement();
-                        break;
-                    case 5:
-                        queueExample.RemoveAllElement();
-                        break;
-                    case 6:
-                        queueExample.CountElement();
-                        break;
 
-                    case 7:
-                        queueExample.ContainsElement();
-                        break;
-                    case 0:
-                        Console.WriteLine("Exiting");
-                        break;
-                    default:
-                        Console.WriteLine("Wrong choice");
-                        break;
 
-                }
-
-            }while (option != 0);
-           
-        }
-
+        }   
     }
 }
