@@ -25,5 +25,17 @@ namespace DataStructure
             Console.WriteLine("Element Removed");
         }
 
+        public void DisplayElement()
+        {
+            Console.WriteLine("Elements in Queue are");
+            foreach (int i in q)
+                Console.WriteLine(i);
+        }
+
+        public void PeekElement()
+        {
+            Console.WriteLine("Peek element" + q.Peek());
+        }
+
     }
 }

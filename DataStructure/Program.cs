@@ -24,6 +24,12 @@ namespace DataStructure
                     case 2:
                         queueExample.RemoveElement();
                         break;
+                    case 3:
+                        queueExample.PeekElement();
+                        break;
+                    case 4:
+                        queueExample.DisplayElement();
+                        break;
                     case 0:
                         Console.WriteLine("Exiting");
                         break;
