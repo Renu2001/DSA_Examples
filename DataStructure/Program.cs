@@ -36,6 +36,10 @@ namespace DataStructure
                     case 6:
                         queueExample.CountElement();
                         break;
+
+                    case 7:
+                        queueExample.ContainsElement();
+                        break;
                     case 0:
                         Console.WriteLine("Exiting");
                         break;

@@ -33,7 +33,7 @@ namespace DataStructure
         }
         public void PeekElement()
         {
-            Console.WriteLine("Peek element" + this.s.Peek());
+            Console.WriteLine("Peek element" + s.Peek());
         }
 
         public void RemoveAllElement()

@@ -48,6 +48,17 @@ namespace DataStructure
             Console.WriteLine("Total no of Elements are" + q.Count);
 
         }
+        public void ContainsElement()
+        {
+            Console.WriteLine("Enter Element to be searched");
+            int no = Convert.ToInt32(Console.ReadLine());
+            bool ans = q.Contains(no);
+            if (ans)
+                Console.WriteLine("Element Found");
+            else
+                Console.WriteLine("Element Not Found");
+
+        }
 
     }
 }
