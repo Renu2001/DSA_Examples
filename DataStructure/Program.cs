@@ -32,6 +32,10 @@ namespace DataStructure
                     case 5:
                         stackExample.RemoveAllElement();
                         break;
+                    case 6:
+                        stackExample.ContainsElement();
+                        break;
+
                 }
 
             }while (option != 0);

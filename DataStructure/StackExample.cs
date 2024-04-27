@@ -42,6 +42,18 @@ namespace DataStructure
             Console.WriteLine("All Elements are deleted");
         }
 
+        public void ContainsElement()
+        {
+            Console.WriteLine("Enter Element to be searched");
+            int no = Convert.ToInt32(Console.ReadLine());
+            bool ans = s.Contains(no);
+            if (ans)
+                Console.WriteLine("Element Found");
+            else
+                Console.WriteLine("Element Not Found");
+
+        }
+
 
 
     }
