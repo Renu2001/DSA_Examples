@@ -19,5 +19,11 @@ namespace DataStructure
             Console.WriteLine("Element Added");
         }
 
+        public void RemoveElement()
+        {
+            q.Dequeue();
+            Console.WriteLine("Element Removed");
+        }
+
     }
 }

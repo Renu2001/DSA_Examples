@@ -20,7 +20,10 @@ namespace DataStructure
                     case 1:
                         queueExample.AddElement();
                         break;
-                    
+
+                    case 2:
+                        queueExample.RemoveElement();
+                        break;
                     case 0:
                         Console.WriteLine("Exiting");
                         break;
