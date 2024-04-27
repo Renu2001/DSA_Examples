@@ -7,7 +7,7 @@ namespace DataStructure
         static void Main(string[] args)
         {
             Console.WriteLine("data structure assignment");
-            StackExample stackExample = new StackExample();
+            QueueExample queueExample = new QueueExample();
             
             int option;
             do
@@ -18,26 +18,9 @@ namespace DataStructure
                 switch (option)
                 {
                     case 1:
-                        stackExample.AddElement();
+                        queueExample.AddElement();
                         break;
-                    case 2:
-                        stackExample.RemoveElement();
-                        break;
-                    case 3:
-                        stackExample.PeekElement();
-                        break;
-                    case 4:
-                        stackExample.DisplayElement();
-                        break;
-                    case 5:
-                        stackExample.RemoveAllElement();
-                        break;
-                    case 6:
-                        stackExample.ContainsElement();
-                        break;
-                    case 7:
-                        stackExample.CountElement();
-                        break;
+                    
                     case 0:
                         Console.WriteLine("Exiting");
                         break;
