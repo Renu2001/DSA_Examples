@@ -37,5 +37,17 @@ namespace DataStructure
             Console.WriteLine("Peek element" + q.Peek());
         }
 
+        public void RemoveAllElement()
+        {
+            q.Clear();
+            Console.WriteLine("All Elements are deleted");
+        }
+
+        public void CountElement()
+        {
+            Console.WriteLine("Total no of Elements are" + q.Count);
+
+        }
+
     }
 }
