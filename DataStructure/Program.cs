@@ -17,7 +17,7 @@ namespace DataStructure
         }
 
         
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Console.WriteLine("data structure assignment");
             Program program = new Program();
@@ -26,6 +26,6 @@ namespace DataStructure
 
 
 
-        }   
+        }   */
     }
 }
